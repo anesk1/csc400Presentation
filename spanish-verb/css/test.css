@@ -1,0 +1,198 @@
+
+#test-container {
+    background-color: white;
+    width: 1100px;
+    height: 750px;
+    margin: 140px 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#test-info-container {
+    background-color: rgb(32, 131, 248, 0.4);
+    width: 1000px;
+    height: 150px;
+    align-self: center;
+    margin: 30px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#test-info-container > p {
+    margin: 0 0 0 25px;
+    color: rgb(66, 66, 66);
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.submit {
+	box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	background:linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
+	background-color:#ffc477;
+	border-radius:6px;
+	border:1px solid #eeb44f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #cc9f52;
+    width: 120px;
+    height: 50px;
+}
+.submit:hover {
+	background:linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
+	background-color:#fb9e25;
+}
+.submit:active {
+	position:relative;
+	top:1px;
+}
+
+
+#form-1-test {
+    align-self: center;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+
+#form-1-test label {
+    margin: 0 15px 0 15px;
+}
+
+#form-1-test > div {
+    align-self: center;
+    margin: 20px 0 20px 0;
+}
+
+#form-1-test > div > label {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+}
+
+
+
+
+#test-check-btn {
+    width: 160px;
+}
+
+
+#test-practice-btn {
+    width: 180px;
+    margin-left: 20px;
+}
+
+#test-results-container {
+    background-color: rgb(25, 217, 94, 0.4);
+    width: 1000px;
+    height: 180px;
+    align-self: center;
+    margin: 0 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#test-results-container > p {
+    margin: 0 0 0 0;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(66, 66, 66);
+    margin: 12px 0 0 25px;
+}
+
+.line {
+    border: 1px solid rgba(17, 146, 65, 0.6);
+    width: 950px;
+    align-self: center;
+    margin: 8px 0 2px 0;
+}
+
+
+
+
+#form-2-test {
+    align-self: center;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+#form-2-test > div > label {
+    margin: 0 15px 0 15px;
+}
+
+#form-2-test > div > label, #form-2-test > div > div > label {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+}
+
+#form-2-test > div:nth-child(2n + 1) {
+    margin: 20px 0 10px 0;
+}
+
+#form-2-test input[type='radio'] {
+    margin: 4px 10px 0 20px;
+}
+
+
+#form-3-test {
+    align-self: center;
+    margin: 20px 0 20px 0;
+}
+
+#form-3-test > div > div > div > label {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    margin: 0 30px 0 30px;
+    justify-self: flex-start;
+}
+
+#form-3-test > div > div > div {
+    margin: 15px 0 15px 0;
+}
+
+#form-3-test > div > div > div > input{
+    margin: 0 0 0 80px;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#test-btns-3 {
+    margin: 20px 0 30px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* font-family: 'Montserrat', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&display=swap');
+

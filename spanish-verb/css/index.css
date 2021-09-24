@@ -1,0 +1,453 @@
+
+html, body {
+    margin: 0;
+    height: 100%;
+    background-color: #333647;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;    
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+#nav-bar {
+    width: 100%;
+    background-color: #282a39;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}
+
+#nav-title {
+    color: #ffffff;
+    margin-top: 25px;
+    margin-left: 370px;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+#main-container {
+    background-color: rgb(255, 255, 255, 0.8);
+    width: 1200px;
+    height: 600px;
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+#test-form {
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0 0 800px;
+}
+
+#take-test-btn {
+    width: 140px;
+    height: 50px;
+    font-size: 18px;
+    align-self: center;
+    justify-self: center
+}
+
+#container-title {
+    color: #2c2c2c;
+    font-size: 22px;
+    margin: 30px;
+    width: max-content;
+}
+
+#progress-container {
+    width: 100%;
+    height: 90px;
+    background-color: rgb(40, 42, 57);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-button {
+    background-color: #4f5163;
+    border-radius: 15px;
+    margin: 0 20px 0 20px;
+    width: 180px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.progress-number {
+    width: 58px;
+    height: inherit;
+    background-color: #7b80ac;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    color: white;
+    font-size: 25px;
+}
+
+.progress-title {
+    color: white;
+    align-self: center;
+    font-size: 18px;
+    margin-left: 16px;
+}
+
+
+.disabled {
+    pointer-events: none;
+    opacity: 40%;
+}
+
+#info-title {
+    color: #242323;
+    font-size: 32px;
+    align-self: center;
+}
+
+#info-subtitle {
+    color: #2c2c2c;
+    font-size: 18px;
+    align-self: center;
+    margin-right: 300px;
+}
+
+#index-form, #tense-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.myButton {
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:linear-gradient(to bottom, #ff0404 5%, #ff0404 100%);
+	background-color:#ff0404;
+	border-radius:6px;
+	border:1px solid #ff0404;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+#index-next, #tense-next {
+    width: 100px;
+    height: 40px;
+    align-self: center;
+    margin-left: 300px;
+}
+
+.options {
+    width: 600px;
+    height: 100px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#option-1, #option-2, #option-3 {
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ededed 5%, #dbdbdb 100%);
+	background-color:#dbdbdb;
+	border-radius:6px;
+	border:1px solid #bdbcbc;
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+
+#index-form-ar, #index-form-er, #index-form-ir {
+    margin-right: 6px;
+}
+
+#selectionError {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	background-color: #fa5456;
+	border-radius: 4px;
+	margin-top: 6vh;
+}
+
+#error-icon, #warning-icon {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+#error {
+	color: white;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	padding: 5px 8px;
+	padding-right: 15px;
+}
+
+.break {
+	border-left: 1px solid rgb(255, 255, 255);
+	height: 45px;
+	margin-left: 10px;
+	margin-right: 5px;
+}
+
+.exit {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 8px;
+	margin-right: 4px;
+	cursor: pointer;
+}
+
+.myButton2 {
+	box-shadow:inset 0px 1px 0px 0px #f5978e;
+	background:linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);
+	background-color:#f24537;
+	border-radius:6px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+
+.myButton2:hover {
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24537 100%);
+	background-color:#c62d1f;
+}
+
+.myButton2:active {
+	position:relative;
+	top:1px;
+}
+
+        
+
+
+
+
+#practice-container {
+    background-color: rgb(255, 255, 255, 0.8);
+    width: 1200px;
+    height: 750px;
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#practice-form-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-self: center;
+}
+
+#practice-container-title {
+    font-size: 24px;
+    font-weight: bold;
+    height: 30px;
+    margin: 30px 0 0 130px;
+}
+
+#practice-container-title-2 {
+    font-size: 24px;
+    font-weight: bold;
+    height: 30px;
+    margin: 30px 0 0 175px;
+}
+
+#practice-container-title-3 {
+    font-size: 24px;
+    font-weight: bold;
+    height: 30px;
+    margin: 40px 0 0 195px;
+}
+
+/* #practice-container-subtitle {
+    font-size: 20px;
+    height: 30px;
+    margin: 4px 0 0 0;
+} */
+
+#practice-sql-verb {
+    font-size: 20px;
+    font-weight: 600;
+    height: 30px;
+    margin: 20px 0 0 0;
+}
+
+#practice-sql-definition {
+    font-size: 20px;
+    height: 30px;
+    margin: 0;
+}
+
+#practice-sql-conjugations-title {
+    font-size: 20px;
+    height: 30px;
+    margin: 20px 0 0 0;
+}
+
+#practice-sql-conjugations {
+    font-size: 20px;
+    margin: 0;
+}
+
+#form-1-sql, #form-2-sql, #form-3-sql {
+    align-self: center;
+    margin-top: 20px;
+}
+
+#form-1-sql > div > input {
+    height: 30px;
+    margin: 5px 0 10px 0;
+    padding: 2px 5px 2px 5px;
+}
+
+#form-1-sql > div > label {
+    font-size: 22px;
+    margin: 10px 20px 5px 20px;
+}
+
+#check-answers-btn {
+    float: right;
+    height: 40px;
+    margin: 20px 0 0 0;
+}
+
+#check-answers-btn-2 {
+    float: right;
+    height: 40px;
+    margin: 8px 0 0 0;
+}
+
+#check-answers-btn2 {
+    height: 40px;
+    margin: 70px 0 0 40px;
+}
+
+#new-verb-btn {
+    height: 40px;
+    margin: 8px 0 0 40px;
+}
+
+#form-2-btns {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+#form-2-sql > div > label {
+    font-size: 21px;
+    margin: 0 5px 0 5px;
+}
+
+#form-2-sql > div > input[type='text'] {
+    margin: 0 10px 0 10px;
+    padding: 0 5px 0 5px;
+}
+
+#radio-row-1 , #radio-row-2, #radio-row-3, #radio-row-4 {
+    justify-content: space-evenly;
+    margin: 2px 0 15px 0;
+}
+
+#radio-row-1 > input , #radio-row-2 > input, #radio-row-3 > input, #radio-row-4 > input {
+    margin-top: 8px;
+}
+
+
+#form-3-sql {
+    display: flex;
+    flex-direction: row;
+}
+
+#form-3-sql > div {
+    margin: 0 20px 0 20px;
+    justify-content: left;
+}
+
+#form-3-sql > div > label {
+    font-size: 23px;
+    margin: 10px 0 10px 20px;
+}
+
+#form-3-sql > div > input {
+    height: 25px;
+    width: 35px;
+    margin: 8px 0 8px 80px;
+    text-align: center;
+    font-size: 20px;
+    padding: 0 5px 0 5px;
+}
+
+#match-warning-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #b99d2d;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0 0 0;
+    width: 580px;
+    align-self: center;
+    color: white;
+}
+
+#warning-icon {
+    margin: 0 10px 0 0;
+}
